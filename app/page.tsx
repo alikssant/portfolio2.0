@@ -14,6 +14,9 @@ import image2 from "../public/item-1.jpg";
 import image3 from "../public/item-3.jpg";
 
 export default function Home() {
+  const openResume = () => {
+    window.open("/resume.pdf", "_blank", "noopener,noreferrer");
+  };
   return (
     <div className="min-h-screen bg-white dark:bg-black text-black dark:text-white transition-colors duration-300">
       <div className="mx-auto max-w-xl px-4 py-20">
@@ -75,8 +78,8 @@ export default function Home() {
 
               <p className="text-gray-600 text-sm dark:text-gray-400 max-w-2x1">
                 In addition to web applications, I am passionate about AI agents
-                and developing scalable LLMs that deliver exceptional
-                performance and resilience.
+                and scalable LLMs that deliver exceptional performance and
+                resilience.
               </p>
             </motion.div>
 
@@ -86,7 +89,11 @@ export default function Home() {
               transition={{ duration: 1 }}
               className="flex items-center gap-3"
             >
-              <Button className="rounded-full bg-gradient-to-r from-rose-600 to-indigo-600 text-white transition-transform hover:scale-105">
+              <Button
+                className="rounded-full bg-gradient-to-r from-rose-600 to-indigo-600 text-white transition-transform hover:scale-105"
+                onClick={openResume}
+                style={{ padding: "10px 20px", fontSize: "16px" }}
+              >
                 Resume
               </Button>
 
@@ -126,7 +133,7 @@ export default function Home() {
               <div className="flex items-center justify-between">
                 <div className="space-y-1">
                   <p className="text-sm text-gray-600 dark:text-gray-400">
-                    May 2024 - Jan 2025
+                    May 2024 - Dec 2024
                   </p>
                   <p className="font-medium">Software Engineer (remote)</p>
                   <p className="text-blue-600 dark:text-blue-400">
@@ -136,11 +143,14 @@ export default function Home() {
               </div>
 
               <p className="text-gray-600 dark:text-gray-400 text-sm">
-                Led the development of cloud-native applications using AWS
-                services, implementing servless architecture that reduced
-                operational consts by 40%. Estiblishing CI/CD pipelines and
-                automated deployment processes, resulting in 60% faster releases
-                cycles.
+                Designed and developed a comprehensive booking admin page for
+                hotel owners to manage operations, including guest check-in/out,
+                breakfast management, and hotel facility control. Improved the
+                user interface using TailwindCSS, ensuring a seamless and
+                intuitive user experience. Implemented Socket.io for real-time
+                communication, enabling instant messaging between users.
+                Developed robust error handling mechanisms on both the client
+                and server sides for enhanced reliability
               </p>
             </div>
             <div className="space-y-2">
@@ -149,9 +159,9 @@ export default function Home() {
                   <p className="text-sm text-gray-600 dark:text-gray-400">
                     Sep 2023 - Dec 2023
                   </p>
-                  <p className="font-medium">Internship (remote, Istanbul)</p>
+                  <p className="font-medium">Frontend Engineer (remote, Turkey)</p>
                   <p className="text-blue-600 dark:text-blue-400">
-                    Union Group Lttd
+                    Union Group
                   </p>
                 </div>
               </div>
@@ -190,10 +200,9 @@ export default function Home() {
                 </div>
               </div>
               <p className="text-gray-600 dark:text-gray-400 tex-sm">
-                Courses: Algorithms, Computer Science, Data
-                Structures, Software Development, Artificial Intelligence (AI),
-                C/C++, C#, Web Development, and Computer
-                Networks.
+                Courses: Algorithms, Computer Science, Data Structures, Software
+                Development, Artificial Intelligence (AI), C/C++, C#, Web
+                Development, and Computer Networks.
               </p>
             </div>
           </motion.section>
