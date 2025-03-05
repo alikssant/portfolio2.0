@@ -16,7 +16,7 @@ import image4 from "../public/4.jpg"
 
 export default function Home() {
   const openResume = () => {
-    window.open("/ABATOV_resume.pdf", "_blank", "noopener,noreferrer");
+    window.open("/resume_abatov.pdf", "_blank", "noopener,noreferrer");
   };
   return (
     <div className="min-h-screen bg-white dark:bg-black text-black dark:text-white transition-colors duration-300">
