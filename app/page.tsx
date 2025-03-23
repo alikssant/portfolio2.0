@@ -1,5 +1,4 @@
 "use client";
-
 import Image from "next/image";
 import profile from "../public/profile.jpg";
 import ThemeToggle from "../components/ui/theme-toggle";
