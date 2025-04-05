@@ -67,10 +67,10 @@ export default function Home() {
               <p className="text-gray-600 text-sm dark:text-gray-400 max-w-2x1">
                 I am an expert in web and software development, specializing in{" "}
                 <span className="text-black dark:text-white">Javascript</span>{" "}
-                and <span className="text-black dark:text-white">React</span>.My
+                and <span className="text-black dark:text-white">React</span>  My
                 expertise includes{" "}
                 <span className="text-black dark:text-white">
-                  TypeScript, React, Next, Redux, NodeJs, Python, PostgreSQl,
+                  TypeScript, React, NodeJs, Python, PostgreSQl,
                   MongoDB
                 </span>
                 .
@@ -133,41 +133,33 @@ export default function Home() {
               <div className="flex items-center justify-between">
                 <div className="space-y-1">
                   <p className="text-sm text-gray-600 dark:text-gray-400">
-                    May 2024 - Dec 2024
+                    Aug 2024 - Present
                   </p>
-                  <p className="font-medium">Software Engineer (remote)</p>
+                  <p className="font-medium">Software Engineer</p>
                   <p className="text-blue-600 dark:text-blue-400">
-                  Union Group
+                  Personal Projects
                   </p>
                 </div>
               </div>
 
               <div className="text-gray-600 dark:text-gray-400 text-sm">
                 <ul className="ml-4 list-disc space-y-2">
+                
                   <li>
-                  
-                    Designed and developed a comprehensive booking admin page for
-                hotel owners to manage operations.
-                  </li>
-                  <li>
-                  Improved the
-                user interface using React.js, TailwindCSS, ensuring a seamless and
-                intuitive user experience.
+                  Built and deployed multiple full-stack web applications using React, Node.js, Express, and PostgreSQL.
                   </li>
                   <li>
                   Implemented Socket.io for real-time
                   communication, enabling instant messaging between users.
                   </li>
                   <li>
-                  Developed robust error handling mechanisms on both the client
-                  and server sides for enhanced reliability
+                  Designed responsive UIs, RESTful APIs, and implemented user authentication.
                   </li>
                   <li>
-                  Improved overall functionality and user experience. Created
-                  landing pages and updated the styles of various pages.
+                  Improved the user interface using ReactJs, TailwindCSS, ensuring a seamless and intuitive user experience.
                   </li>
                   <li>
-                    Integrated APIs for authentication, content delivery, and various services.
+                  Used agile workflows, Git version control, and component-based architecture.
                  
                   </li>
                 </ul>
@@ -181,10 +173,10 @@ export default function Home() {
                     Sep 2023 - Dec 2023
                   </p>
                   <p className="font-medium">
-                    Frontend Engineer
+              
                   </p>
                   <p className="text-blue-600 dark:text-blue-400">
-                    Union Group
+                    
                   </p>
                 </div>
               </div>
