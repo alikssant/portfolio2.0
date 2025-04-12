@@ -137,7 +137,7 @@ export default function Home() {
                   </p>
                   <p className="font-medium">Software Engineer</p>
                   <p className="text-blue-600 dark:text-blue-400">
-                  Personal Projects
+                  Freelance
                   </p>
                 </div>
               </div>
@@ -148,10 +148,7 @@ export default function Home() {
                   <li>
                   Built and deployed multiple full-stack web applications using React, Node.js, Express, and PostgreSQL.
                   </li>
-                  <li>
-                  Implemented Socket.io for real-time
-                  communication, enabling instant messaging between users.
-                  </li>
+                 
                   <li>
                   Designed responsive UIs, RESTful APIs, and implemented user authentication.
                   </li>
@@ -170,7 +167,7 @@ export default function Home() {
               <div className="flex items-center justify-between">
                 <div className="space-y-1">
                   <p className="text-sm text-gray-600 dark:text-gray-400">
-                    Sep 2023 - Dec 2023
+            
                   </p>
                   <p className="font-medium">
               
@@ -208,9 +205,9 @@ export default function Home() {
                   <p className="font-medium">
                     Bachelor of Engineering - Computer Science
                   </p>
-                  <p className="text-blue-600 dark:text-blue-400">
+                  <a href="https://en.sejong.ac.kr/eng/index.do" className="text-blue-600 dark:text-blue-400">
                     Sejong University, Seoul South Korea
-                  </p>
+                  </a>
                 </div>
               </div>
               {/* <p className="text-gray-600 dark:text-gray-400 tex-sm">
