@@ -133,7 +133,7 @@ export default function Home() {
               <div className="flex items-center justify-between">
                 <div className="space-y-1">
                   <p className="text-sm text-gray-600 dark:text-gray-400">
-                    Aug 2024 - Present
+                    Oct 2024 - Present
                   </p>
                   <p className="font-medium">Software Engineer</p>
                   <p className="text-blue-600 dark:text-blue-400">
